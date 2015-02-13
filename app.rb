@@ -1,5 +1,6 @@
 require("sinatra")
 require("sinatra/reloader")
+require("./lib/missing_vowels")
 
 
 get("/")do
@@ -9,5 +10,5 @@ end
 
 get("/results") do
 @results = params.fetch("results").missing_vowels()
-erb(:resutls)
+erb(:results)
 end
