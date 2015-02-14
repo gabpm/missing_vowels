@@ -18,6 +18,6 @@ class String
 
       end
     end
-    vowels.join
+    vowels
   end
 end
