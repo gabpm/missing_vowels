@@ -13,7 +13,7 @@ class String
         vowels.delete("i")
       elsif letter == "o"
         vowels.delete("o")
-      else letter == "u"
+      elsif letter == "u"
         vowels.delete("u")
 
       end
